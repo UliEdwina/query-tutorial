@@ -89,10 +89,26 @@
     width: 550px;
     height: 125px;
 }
-@media only screen and (max-width: 400px){
+@media screen and (max-width: 400px){
     .rows {
     display:flex;
     flex-direction:column;
+    }   
+}
+
+@media screen and (min-width: 400px) and (max-width:500px){
+.rows{
+display:flex;
+    flex-direction:column;
+    width:40%;
+ 
+}
+
+#container {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    
     
 }
 }
