@@ -90,7 +90,7 @@
     height: 125px;
 }
 @media only screen and (max-width: 400px){
-    #row1 {
+    .rows {
     display:flex;
     flex-direction:column;
     
