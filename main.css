@@ -1,0 +1,18 @@
+#row1{
+    
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+#row1 > .box1-0:nth-of-type(even){
+    background-color: blueviolet;
+    border: 1px solid black;
+
+}
+
+#row1 > .box1-0:nth-of-type(odd){
+    background-color: red;
+    border: 1px solid black;
+}
+
+@media only screen and (max-width: 400px;){}
